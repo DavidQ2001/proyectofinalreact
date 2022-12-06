@@ -1,3 +1,5 @@
+import { Footer } from "../shared/Footer/Footer"
+
 export function Mercancia(){
 
     let titulo ="Productos de la banda..."
@@ -60,6 +62,7 @@ export function Mercancia(){
 
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }
