@@ -6,3 +6,16 @@
     background-attachment: fixed;
     padding: 30%;
 }
+
+
+.tarjeta{
+    background-color: rgb(132, 128, 159);
+    margin-top: 100px;
+    text-align: center;
+    padding: 80px;
+    height: 450px;
+    border: solid 4px;
+}
+
+
+
