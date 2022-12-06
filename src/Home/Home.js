@@ -98,20 +98,33 @@ export function Home(){
 
         <section>
         <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col-12">
+                    <h1>NOTICAS</h1>
+                    <hr/>
+                </div>
+            </div>
             <div class= "row">
             <div class="col-12 col-md-4">
                 <img src='https://firebasestorage.googleapis.com/v0/b/spotydqq.appspot.com/o/carousel2.png?alt=media&token=42aacde5-b6ab-4134-b69f-0abcb74d1f87' alt='' class="img-fluid w-100"/>
+                <p class="text-center mt-2">
+                Los raperos de Medellín darán, el 10 de marzo, su segundo concierto en el Auditorio Lumiere. Allí, presentarán al público capitalino las canciones de ‘Servicios ambulatorioz’, su disco más reciente.
+                </p>
            
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 mt-2">
                 <img src='https://firebasestorage.googleapis.com/v0/b/spotydqq.appspot.com/o/carousel22.jpg?alt=media&token=99e53119-ed0f-426c-bdf1-1e7f7c83ce59' alt='' class="img-fluid w-100"/>
-           
+                <p class="text-center">
+                Se siguen sumando conciertos y festivales al trimestre final de 2022 considerado pro muchos como el año de los eventos musicales en vivo. El próximo 08 de octubre llega a la capital colombiana la primera edición del Quimera Fest con un cartel de talla internacional.
+                </p>
             </div>
 
             <div class="col-12 col-md-4">
                 <img src='https://firebasestorage.googleapis.com/v0/b/spotydqq.appspot.com/o/carousel3.jpg?alt=media&token=b7a6de8f-0e36-4aa6-b9e5-df9b4afd7a60' alt='' class="img-fluid w-100"/>
-           
+                <p class="text-center mt-2">
+                Alcolirykoz, La Etnnia, Apache y Realidad Mental, reconocidos exponentes del rap y la cultura hip hop en Colombia y América Latina, serán los invitados musicales al evento Tattoo Music Festival Bogotá 2022 que se realizará en el Centro de Eventos de la Autopista Norte en Chía, Cundinamarca.
+                </p>
             </div>
             </div>
             </div>
