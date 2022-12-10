@@ -1,6 +1,5 @@
 .banner{
     background-image:url('https://firebasestorage.googleapis.com/v0/b/spotydqq.appspot.com/o/banneralcoli.jpg?alt=media&token=892f8962-a857-476e-bb97-3b75133cb07d') ;
-    
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
@@ -15,6 +14,14 @@
     padding: 80px;
     height: 450px;
     border: solid 4px;
+}
+
+
+
+.titulo_home{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 

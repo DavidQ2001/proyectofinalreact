@@ -1,4 +1,5 @@
 import { Footer } from "../shared/Footer/Footer"
+import './Mercancia.css'
 
 export function Mercancia(){
 
@@ -40,7 +41,7 @@ export function Mercancia(){
 
     return(
         <>
-            <h1>{titulo}</h1>
+            <h1 class="titulo_mercancia">{titulo}</h1>
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-3 g-5">
                     {

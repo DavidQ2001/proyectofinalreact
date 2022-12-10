@@ -15,7 +15,7 @@ export function Home(){
                 <div class="row">
                     
                     <div class="col-12 col-md-8">
-                    <h2>ALCOLIRIKOZ</h2>
+                    <h2 class="titulo_home">ALCOLIRIKOZ</h2>
                         <p>“Todo lo bueno tarda”, dice una de las canciones de su último álbum, Aranjuez, presentado el sábado anterior en Medellín. Hace unos meses, en menos de dos horas las boletas se agotaron para esta presentación en el Teatro Carlos Vieco: el público esperaba con ansiedad este concierto, tardío y aplazado por los tiempos pandémicos.
 
                         Después de ver la respuesta de la gente, se alistaron para una segunda presentación, el mismo sábado, a las 5. Con luz de luna entre nubes oscuras y gente emocionada más allá de cualquier fila o espera, aparecieron en el escenario Kaztro, Gambeta y Fazeta, integrantes de Alcolirykoz, una banda de rap que nació en las calles de Aranjuez, en Medellín.
@@ -100,7 +100,7 @@ export function Home(){
         <div class="container-fluid mt-4">
             <div class="row">
                 <div class="col-12">
-                    <h1>NOTICAS</h1>
+                    <h1 class="titulo_home">NOTICIAS</h1>
                     <hr/>
                 </div>
             </div>
