@@ -1,0 +1,17 @@
+.fotos{
+    height: 150px;
+    width: 150px;
+    
+   
+}
+
+.carta{
+   margin-top: 50px;
+    width: 400px;
+    height: 500px;
+    border: solid black;
+    display: inline-block;
+    margin-left: 50px;
+   
+    
+}

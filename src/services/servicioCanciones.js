@@ -1,8 +1,9 @@
 //RECETA PARA CONSUMIR UN API EN REACT
 
 import { Await } from "react-router-dom"
-
+import { generarToken } from "./servicioToken"
 export async function servicioCancionesTop(){
+   let token= await  generarToken()
 
     //1.pa donde vas ya que vas 
     //escribir la url del servicio del api
@@ -12,7 +13,7 @@ export async function servicioCancionesTop(){
     // CONFIGURAR LA PETICION DE ENVIO HACIA EL SERVIDOR
     const PETICION = {
         method: "GET",
-        headers:{Authorization:" Bearer BQC2k35kKxwNAqHwGIszsoR4IqGRvsA6AEDF8EBMJalKsPqIh6Fc_r7KKXuN_sR-IC0bcjd-GpCANneZZ177AlkwLvjqBOx-VvcFAfpBOF6tL-AK4IVTYrtxy9JrrVcwluskbS6u4bb_NaMRnDYRSbqT3vhWHdoN3fWC2a1kBRHvHpC7NjSPp2CU_BWKTx_jPY0"}
+        headers:{Authorization:token}
 
 
     }
